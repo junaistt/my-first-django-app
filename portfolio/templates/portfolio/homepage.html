@@ -1,0 +1,23 @@
+{# mysite/portfolio/templates/portfolio/homepage.html #}
+{% extends 'portfolio/base.html' %} {# Extends the base template #}
+
+{% block title %}Junais's Portfolio - Home{% endblock %}
+
+{% block content %}
+<header class="text-center py-10 bg-blue-100 rounded-lg shadow-md mt-5">
+    <h1 class="text-5xl font-extrabold text-blue-800 mb-4">Hey there, I'm Junais!</h1>
+    <p class="text-xl text-gray-700 max-w-2xl mx-auto">
+        A passionate Python Full Stack Developer on a journey to build amazing web applications.
+    </p>
+</header>
+
+<section class="mt-10 p-5 bg-white rounded-lg shadow-md">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-2">About Me</h2>
+    <p class="text-gray-700 leading-relaxed">
+        I'm a dedicated learner with a strong foundation in Python, Django, HTML, CSS, and JavaScript. I enjoy solving complex problems and creating intuitive user experiences. My goal is to contribute to innovative projects and continuously grow my skills in the tech industry.
+    </p>
+    <p class="text-gray-700 leading-relaxed mt-3">
+        This portfolio website is a testament to my learning journey and showcases some of my ongoing and completed projects. Feel free to explore and get in touch!
+    </p>
+</section>
+{% endblock %}

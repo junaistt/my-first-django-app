@@ -5,15 +5,15 @@ __pycache__/
 *.pyd
 .Python
 env/
-venv/ # Your virtual environment
+venv/           # Your virtual environment
 *.egg-info/
 .mypy_cache/
 .pytest_cache/
-.DS_Store # macOS specific
+.DS_Store       # macOS specific
 
 # Django
-db.sqlite3 # Your database file (don't commit this to public repos)
-/media # User uploaded files
-/static # Collected static files
+db.sqlite3      # Your database file (don't commit this to public repos)
+/media          # User uploaded files (we will create this soon)
+/static         # Collected static files (we will create this later)
 *.log
 local_settings.py # If you create a local settings file
